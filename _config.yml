@@ -1,0 +1,91 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: JJ Playwell
+# Description of the Site
+description: Hyvinvointi & valmennus Janiina Jalonen
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Hyvinvointi, Valmennus, Hieronta, Personaltrainer
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: http://www.jjplaywell.fi/assets/images/taustap.jpg
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: info@jjplaywell.fi
+facebook_username: jjplaywell
+# twitter_username: thedevslot
+instagram_username: jjplaywell
+# linkedin_username: thedevslot
+linkedin_username: janiina-jalonen-6073391b8/
+# youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+
+# Name of the Author
+author-name: Janiina Jalonen
+# URL for the Image of the Author
+author-image: http://www.jjplaywell.fi/assets/images/1rmv.jpg
+# 60 Words About the Author
+author-about: Olen Janiina Jalonen, suoritin Liikunnan Ammattitutkinnon Eerikkilän urheiluopistolla vuosina 2018-2019 ja valmistuin Liikuntaneuvojaksi sekä Personal Traineriksi. Tällä hetkellä opiskelen hieronnan ammattitutkintoa. Olen pelannut jalkapalloa lapsesta saakka ja vaikka aktiiviurani jalkapallossa on jo takanapäin, olen edelleen vahvasti mukana lajin parissa juniorivalmennuksen myötä. Kokemusta jalkapallovalmentamisesta minulla on yli 15 vuoden ajalta, niin juniori- kuin aikuistasolla. Jalkapallon myötä olen aina nauttinut joukkueurheilusta ja yhdessä tekemisestä. Pidän myös luonnossa liikkumisesta, poluilla lenkkeilystä ja muutenkin ulkona treenaamisesta. Valmentajana painotan harjoittelussa monipuolisuutta ja rentoa tekemistä. Minulle on tärkeää kokonaisvaltainen hyvinvointi, jossa liikunta, ravinto ja lepo ovat tasapainossa.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: 
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title:output_ext"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
